@@ -5,8 +5,6 @@ import Colors from '../constants/Colors';
 import { MonoText } from './StyledText';
 import { Text, View } from './Themed';
 
-const t = 0;
-
 function handleHelpPress() {
   WebBrowser.openBrowserAsync(
     'https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet',
